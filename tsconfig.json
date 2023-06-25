@@ -13,11 +13,11 @@
     "moduleResolution": "node",
     "resolveJsonModule": true,
     "isolatedModules": true,
-    "incremental": true
+    "incremental": true,
+    "images": {
+      "unoptimized": true
+    }
   },
   "exclude": ["node_modules"],
-  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx"],
-  "images": {
-    "unoptimized": true
-  }
+  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx"]
 }
