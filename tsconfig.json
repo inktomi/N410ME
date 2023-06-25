@@ -16,7 +16,8 @@
     "incremental": true,
     "images": {
       "unoptimized": true
-    }
+    },
+    "output": "export"
   },
   "exclude": ["node_modules"],
   "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx"]
